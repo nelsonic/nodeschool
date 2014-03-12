@@ -1,16 +1,9 @@
-var fs = require('fs');
+var fs = require('fs'),
+  path = require('path');
 
-function printFileNamesWithExt(dir, ext) {
-	ext = ext.toString();
-	fs.readdir(dir, function (err, list) { 
-		if(err) console.log(err);
-		for(var i = 0; i < list.length; i++){
-			var file = list[i].toString()
-			if(file.lastIndexOf(ext) === file.length - ext.length && file.length > ext.length) {
-				console.log(file);
-			}
-		}
-	});
-}
-
-printFileNamesWithExt(process.argv[2], process.argv[3]);
+fs.readdir(process.argv[2], function (err, list) {
+  list.forEach(function (file) {
+    if (path.extname(file) === '.' + process.argv[3])
+      console.log(file);
+  });
+});
