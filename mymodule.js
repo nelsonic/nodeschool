@@ -8,6 +8,6 @@ module.exports = function(dir, ext, callback){
 	  list = list.filter(function (file) {
 	    return path.extname(file) === '.' + ext
 	  });
-		callback(null, list);
+	  callback(null, list);
 	});
 }
