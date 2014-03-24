@@ -1,16 +1,10 @@
-var fs = require('fs'),
-  http = require('http'),
-  port = process.argv[2],
-  file = process.argv[3];
+var http = require('http')
+var fs = require('fs')
 
-var server = http.createServer(function(req,res){
-	var rs = fs.createReadStream(file);
-	rs.on('data', function(chunk){
-		res.write(chunk);	
-	})
-	rs.on('end', function(){
-		res.end();
-	})
-});
+var server = http.createServer(function (req, res) {
+  res.writeHead(200, { 'content-type': 'text/plain' })
 
-server.listen(port);
+  fs.createReadStream(process.argv[3]).pipe(res)
+})
+
+server.listen(Number(process.argv[2]))
