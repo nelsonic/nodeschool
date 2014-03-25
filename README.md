@@ -1,4 +1,4 @@
-# nodeschoo.io
+# nodeschool.io solutions
 
 If you're new to Node.js try the http://nodeschool.io exercises.
 
