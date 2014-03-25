@@ -11,7 +11,6 @@ server.on('request', function(req, res) {
 		str = str + chunk;
 	})
 	req.on('end', function(){
-		res.end(str.toUpperCase());
+		res.end(str.toString().toUpperCase());
 	})
 });
-
