@@ -1,4 +1,4 @@
-var trumpet = require('trumpet')();
+var trumpet = require('trumpet')(); // https://github.com/substack/node-trumpet
 var through = require('through');
 
 var loud = trumpet.select('.loud').createStream();
