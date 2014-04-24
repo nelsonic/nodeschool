@@ -1,0 +1,36 @@
+{
+  "name": "stream-adventure-solutions",
+  "version": "0.0.1",
+  "description": "solutions to http://nodeschool.io/#stream-adventure'",
+  "main": "beepboop.js",
+  "dependencies": {
+    "concat-stream": "~1.4.5",
+    "request": "~2.34.0",
+    "through": "~2.3.4",
+    "split": "~0.3.0",
+    "stream-combiner": "~0.0.4",
+    "websocket-stream": "~0.5.1",
+    "trumpet": "~1.6.3",
+    "duplexer": "~0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonic/nodeschool"
+  },
+  "keywords": [
+    "nodeschool",
+    "stream",
+    "adventure",
+    "solutions"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonic/nodeschool/issues"
+  },
+  "homepage": "https://github.com/nelsonic/nodeschool"
+}
