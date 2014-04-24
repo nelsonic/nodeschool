@@ -11,7 +11,8 @@
     "stream-combiner": "~0.0.4",
     "websocket-stream": "~0.5.1",
     "trumpet": "~1.6.3",
-    "duplexer": "~0.1.1"
+    "duplexer": "~0.1.1",
+    "tar": "~0.1.19"
   },
   "devDependencies": {},
   "scripts": {
