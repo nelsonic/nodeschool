@@ -1,5 +1,5 @@
 var crypto = require('crypto');
-var tar = require('tar');
+var tar = require('tar'); // https://github.com/isaacs/node-tar
 var zlib = require('zlib');
 var through = require('through');
 
