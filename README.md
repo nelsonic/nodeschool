@@ -1,6 +1,7 @@
 # nodeschool.io solutions
 
-If you're new to Node.js try the http://nodeschool.io exercises.
+If you're new to Node.js and have finished watching http://nodetuts.com/01-node_intro.html
+try the http://nodeschool.io exercises.
 
 This repo is my *complete* set of solutions.
 
