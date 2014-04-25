@@ -10,3 +10,7 @@ If you have any questions, tweet me: [@nelsonic](https://twitter.com/nelsonic)
 ![nodeschool.io complete](http://i.imgur.com/QeAugZV.png)
 
 ![stream adventure complete](http://i.imgur.com/f7DilSZ.png)
+
+## Next:
+
+- [ ] LevelMeUp: http://nodeschool.io/#levelmeup
