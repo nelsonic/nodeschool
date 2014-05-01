@@ -7,6 +7,7 @@ var lines = file.split('\n');
 
 level(process.argv[2], function (err, db) {
 
+  // uses batch chained: https://github.com/rvagg/node-levelup#batch_chained
   var batch = db.batch();
   lines.forEach(function (line) {
     var d = line.split(',');
