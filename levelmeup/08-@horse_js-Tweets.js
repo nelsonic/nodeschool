@@ -7,7 +7,7 @@ module.exports = function (db, day, callback) {
     })
     .on('end', function () {
       if (callback) {
-        callback(null, tweets)
+        callback(null, tweets);
       }
     });
 };
