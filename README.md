@@ -11,6 +11,8 @@ If you have any questions, tweet me: [@nelsonic](https://twitter.com/nelsonic)
 
 ![stream adventure complete](http://i.imgur.com/f7DilSZ.png)
 
+![level me up complete](http://i.imgur.com/oAhtgpV.png)
+
 ## Next:
 
-- [ ] LevelMeUp: http://nodeschool.io/#levelmeup
+- [ ] FunctionalJS: http://nodeschool.io/#functionaljs
