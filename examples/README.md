@@ -10,7 +10,7 @@
 
 ## What is Node.js ?
 
-Node.js lets you *easily* build software (websites, applications "apps",
+Node.js lets you *easily* build networked software (websites, applications "apps",
 using JavaScript).
 
 Its not "*point-and-click*" like WordPress, SquareSpace or Salesforce;
@@ -24,7 +24,7 @@ Yes! Some of the biggest organisations/companies in the world
 are using Node.js in Production systems:
 
 [Ajax.org](Ajax.org),
-British Sky Broadcasting (Sky/Now TV),
+[Box.com](http://tech.blog.box.com/2014/06/node-js-high-availability-at-box/), British Sky Broadcasting (Sky/Now TV),
 CNN,
 [Cloudup](https://cloudup.com/),
 Conde Nast,
@@ -45,11 +45,11 @@ LinkedIn,
 [Medium](https://medium.com/the-story),
 Mozilla,
 NetFlix,
-~~O~~,
+[OpenTable](http://hapijs.com/community),
 PayPal,
 Pearson,
 ~~Q~~,
-~~R~~,
+[Revolt](http://revolt.tv/),
 [Square](https://modulus.io/companies-using-node),
 Tesco,
 ThomasCook,
